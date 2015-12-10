@@ -4,6 +4,8 @@ Le but de calendar est de creer un réseau social de gestion d'agenda évenement
 
 pour tester :
 
+La base de donnée se trouve dans le dossier DB à la racine
+
 index.php : pour lancer l'interface principale. 
 Les 3 évenements sont cliquable et mènent sur la description de l'événement, seul la description du concert de muse propose des fonctionnalité avancées.
 

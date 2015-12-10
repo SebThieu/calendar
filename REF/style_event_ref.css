@@ -1,0 +1,106 @@
+body {
+
+	font-family: 'Roboto Condensed', sans-serif;
+	margin : 0;
+	padding: 0;
+}
+
+#wrapper {
+overflow-y: auto;
+width: 100%;
+height: 100%;
+
+}
+.eventContainer {
+
+
+
+}
+
+.eventBg {
+
+	display: flex;
+    justify-content: space-around;
+    background-image: url("../img/img_event1.jpg");
+    background-size: cover;
+    background-position-y: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+#eventOverlay {
+
+    display: flex;
+    width: 100%;
+	justify-content: space-between;
+    background : rgba(0, 0, 255, 0.5);
+    background-size: cover;
+    background-position-y: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+/* DATE EVENEMENT */
+.dateEvent  {
+
+    border: solid 1px black;
+    padding: 0% 4%;
+    position: relative;
+    background: white;
+    background-size: contain;
+}
+
+.eventDateStyle {
+
+	font-size: 38px;
+	font-weight: bold;
+
+}
+
+/*DESCRIPTION EVENEMENT*/
+
+.resumeEvent {
+
+	right: 20%;
+    position: relative;
+    line-height: 0;
+
+
+
+}
+
+
+ .titleEvent, 
+.catEvent {
+
+	font-size: 1.6em;
+	color: white;
+	justify-content: center;
+    text-align: center;
+
+}
+
+.catEvent p {
+
+	font-weight: lighter;
+    text-transform: lowercase;
+    text-align: right;
+}
+
+
+.describeEvent {
+    padding: 0 25%;
+    width: 100%;
+    color: white;
+    display: none;
+    justify-content: center;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: left;
+}
+
+#eventDescribe {
+
+
+}
+

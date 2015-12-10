@@ -1,0 +1,50 @@
+
+/* CONCERTS */
+.color_1 { 
+
+background : rgba(0, 0, 255, 0.5);
+	
+}
+
+.color_1:hover { 
+
+background : rgba(0, 0, 255, 0.7);
+	
+}
+/* SALONS */
+.color_2 { 
+
+background : rgba(255,0,0,0.5);
+	
+}
+
+.color_2:hover { 
+
+background : rgba(255,0,0,0.7);;
+	
+}
+ /* EXPOS */
+.color_3 {	
+
+background : rgba(255,202,0,0.5);
+
+}
+
+.color_3:hover { 
+
+background : rgba(255,202,0,0.7);
+	
+}
+
+ /* EVENEMENTS PUBLIQUES */
+.color_4 {
+
+background: rgba(0,101,18,0.5);
+
+}
+
+.color_4:hover {
+
+background: rgba(0,101,18,0.7);
+
+}

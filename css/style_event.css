@@ -1,0 +1,116 @@
+body{
+
+    font-family: 'Khand', sans-serif;
+	margin : 0;
+	padding: 0;
+}
+
+#wrapper, #wrapper a, #wrapper a:visited, #wrapper a:focus {
+
+color: black;
+text-decoration: none;
+overflow-y: auto;
+width: 100%;
+height: 100%;
+
+}
+
+
+.eventPicture {
+
+	display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    background-position-y: 40%;
+    text-align: center;
+    align-items: center;
+}
+
+#eventPicture1 {
+
+
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.eventOverlay {
+
+    display: flex;
+    width: 100%;
+	justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+/* DATE EVENEMENT */
+.eventDate  {
+
+    padding: 0% 4%;
+    position: relative;
+    background: white;
+    background-size: contain;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.eventDateStyle {
+
+    text-transform: uppercase;
+	font-size: 38px;
+	font-weight: bold;
+
+}
+
+.eventLocation {
+    display: inline-flex;
+    color: white;
+    font-size: 50px;
+    padding: 3% 0;
+    left: 15%;
+    font-weight: bold;
+    position: absolute;
+}
+
+/*DESCRIPTION EVENEMENT*/
+
+.eventTextContainer {
+
+	right: 20%;
+    position: relative;
+    line-height: 0;
+
+
+
+}
+
+
+.eventTitle, 
+.eventCategory {
+
+	font-size: 1.6em;
+	color: white;
+	justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.eventCategory p {
+
+	font-weight: lighter;
+    text-transform: lowercase;
+    text-align: right;
+}
+
+
+.eventDescription {
+    padding: 0 25%;
+    width: 100%;
+    color: white;
+    display: none;
+    justify-content: center;
+    font-weight: lighter;
+    text-transform: lowercase;
+    text-align: left;
+}
+

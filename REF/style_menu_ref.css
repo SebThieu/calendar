@@ -1,0 +1,32 @@
+#menu {
+
+	width: 100%;
+    z-index: 1;
+    position: fixed;
+    word-spacing: 10em;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#menu li{
+
+	color: white;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer h2 {
+    bottom: 0%;
+    position: fixed;
+    color: white;
+    z-index: 1;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: black;
+    text-transform: uppercase;
+    width: 100%;
+}
